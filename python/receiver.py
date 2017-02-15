@@ -32,8 +32,11 @@ class UdpReceiver:
 
 if __name__ == "__main__":
 
+    # you should add you IP here
+    MyIp = '192.168.0.109'
+
     # creating udp receiver
-    receiver = UdpReceiver('localhost', 10000)
+    receiver = UdpReceiver(MyIp, 10000)
 
     # listen for incoming messages
     receiver.listen()

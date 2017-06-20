@@ -34,7 +34,7 @@ class UdpSender:
 if __name__ == "__main__":
 
     # creating udp sender
-    sender = UdpSender('localhost', 10000)
+    sender = UdpSender('localhost', 9876)
 
     message = 'This is the message.  It will be repeated.'
     sender.send(message)
